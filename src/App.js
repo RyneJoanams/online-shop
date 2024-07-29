@@ -11,25 +11,28 @@ import Signup from './components/Signup';
 import AdminDashboard from './components/AdminDashboard';
 import OrderSummary from './components/OrderSummary';
 import './styles/globals.css';
+import { AuthProvider } from './AuthContext';
 
 function App() {
     return (
-        <Router>
-            <div className="App">
-                <Header />
-                <Routes>
-                    <Route path="/" exact component={ProductList} />
-                    <Route path="/product/:id" component={ProductDetail} />
-                    <Route path="/cart" component={Cart} />
-                    <Route path="/checkout" component={Checkout} />
-                    <Route path="/login" component={Login} />
-                    <Route path="/signup" component={Signup} />
-                    <Route path="/admin" component={AdminDashboard} />
-                    <Route path="/order-summary" component={OrderSummary} />
-                </Routes>
-                <Footer />
-            </div>
-        </Router>
+        <AuthProvider>
+            <Router>
+                <div className="App">
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<ProductList />} />
+                        <Route path="/product/:id" element={<ProductDetail />} />
+                        <Route path="/cart" element={<Cart />} />
+                        <Route path="/checkout" element={<Checkout />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/signup" element={<Signup />} />
+                        <Route path="/admin" element={<AdminDashboard />} />
+                        <Route path="/order-summary" element={<OrderSummary />} />
+                    </Routes>
+                    <Footer />
+                </div>
+            </Router>
+        </AuthProvider>
     );
 }
 
