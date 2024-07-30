@@ -1,3 +1,4 @@
+//adds admin functionalities like add, remove items
 import React from 'react';
 
 const AdminDashboard = () => (
