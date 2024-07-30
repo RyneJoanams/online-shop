@@ -30,6 +30,7 @@ Django project structure( Subject to change by Elsa)<br>
 
 /project_root<br>
     /users<br>
+    
           |_models.py<br>
           |_views.py<br>
           |_serializers.py<br>
