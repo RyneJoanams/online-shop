@@ -2,23 +2,23 @@ React Project Structure
 
 /src
     /components
-        Header.js<br>
-        Footer.js <br>
-        ProductList.js<br>
-        ProductItem.js <br>
-        ProductDetail.js<br>
-        Cart.js <br>
-        Checkout.js <br>
-        Login.js <br>
-        Signup.js<br>
-        AdminDashboard.js<br>
-        OrderSummary.js<br>
+      |_ Header.js<br>
+      |_  Footer.js <br>
+      |_  ProductList.js<br>
+      |_  ProductItem.js <br>
+      |_  ProductDetail.js<br>
+      |_  Cart.js <br>
+      |_  Checkout.js <br>
+      |_  Login.js <br>
+      |_  Signup.js<br>
+      |_  AdminDashboard.js<br>
+      |_  OrderSummary.js<br>
     /utils<br>
-        api.js<br>
-        auth.js<br>
+        |_api.js<br>
+        |_auth.js<br>
         helpers.js<br>
     /styles<br>
-        globals.css<br>
+        |_globals.css<br>
     App.js<br>
     index.js<br>
 
@@ -26,23 +26,23 @@ Django project structure( Subject to change by Elsa)<br>
 
 /project_root<br>
     /users<br>
-        models.py<br>
-        views.py<br>
-        serializers.py<br>
-        urls.py<br>
+        |_models.py<br>
+        |_views.py<br>
+        |_serializers.py<br>
+        |_urls.py<br>
     /products<br>
-        models.py<br>
-        views.py<br>
-        serializers.py<br>
-        urls.py<br>
+        |_models.py<br>
+        |_views.py<br>
+        |_serializers.py<br>
+        |_urls.py<br>
     /orders<br>
-        models.py<br>
-        views.py<br>
-        serializers.py<br>
-        urls.py<br>
+        |_models.py<br>
+        |_views.py<br>
+        |_serializers.py<br>
+        |_urls.py<br>
     /admin_dashboard<br>
-        views.py<br>
-        urls.py<br>
+        |_views.py<br>
+        |_urls.py<br>
     settings.py<br>
     urls.py<br>
     wsgi.py<br>
