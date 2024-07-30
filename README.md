@@ -30,20 +30,19 @@ React Project Structure
 Django project structure( Subject to change by Elsa)<br>
 
 /project_root<br>
-    /users<br>
-    
+   |_ /users<br>
         |_models.py<br>
         |_views.py<br>
         |_serializers.py<br>
         |_urls.py<br>
+        
     /products<br>
-    
         |_models.py<br>
         |_views.py<br>
         |_serializers.py<br>
         |_urls.py<br>
+        
     /orders<br>
-    
         |_models.py<br>
         |_views.py<br>
         |_serializers.py<br>
