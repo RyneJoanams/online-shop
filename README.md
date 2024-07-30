@@ -2,6 +2,7 @@ React Project Structure
 
 /src
     /components
+    
           |_ Header.js<br>
           |_  Footer.js <br>
           |_  ProductList.js<br>
