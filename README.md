@@ -2,48 +2,48 @@ React Project Structure
 
 /src
     /components
-        Header.js
-        Footer.js
-        ProductList.js
-        ProductItem.js
-        ProductDetail.js
-        Cart.js
-        Checkout.js
-        Login.js
-        Signup.js
-        AdminDashboard.js
-        OrderSummary.js
-    /utils
-        api.js
-        auth.js
-        helpers.js
-    /styles
-        globals.css
-    App.js
-    index.js
+        Header.js<br>
+        Footer.js <br>
+        ProductList.js<br>
+        ProductItem.js <br>
+        ProductDetail.js<br>
+        Cart.js <br>
+        Checkout.js <br>
+        Login.js <br>
+        Signup.js<br>
+        AdminDashboard.js<br>
+        OrderSummary.js<br>
+    /utils<br>
+        api.js<br>
+        auth.js<br>
+        helpers.js<br>
+    /styles<br>
+        globals.css<br>
+    App.js<br>
+    index.js<br>
 
-Django project structure( Subject to change by Elsa)
+Django project structure( Subject to change by Elsa)<br>
 
-/project_root
-    /users
-        models.py
-        views.py
-        serializers.py
-        urls.py
-    /products
-        models.py
-        views.py
-        serializers.py
-        urls.py
-    /orders
-        models.py
-        views.py
-        serializers.py
-        urls.py
-    /admin_dashboard
-        views.py
-        urls.py
-    settings.py
-    urls.py
-    wsgi.py
-    manage.py
+/project_root<br>
+    /users<br>
+        models.py<br>
+        views.py<br>
+        serializers.py<br>
+        urls.py<br>
+    /products<br>
+        models.py<br>
+        views.py<br>
+        serializers.py<br>
+        urls.py<br>
+    /orders<br>
+        models.py<br>
+        views.py<br>
+        serializers.py<br>
+        urls.py<br>
+    /admin_dashboard<br>
+        views.py<br>
+        urls.py<br>
+    settings.py<br>
+    urls.py<br>
+    wsgi.py<br>
+    manage.py<br>
