@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState('');
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
+    };
+
+    const handleSearchChange = (e) => {
+        setSearchTerm(e.target.value);
+    };
+
+    const handleSearchSubmit = (e) => {
+        e.preventDefault();
+        // Implement search functionality here
+        console.log('Search for:', searchTerm);
     };
 
     return (
@@ -27,6 +37,15 @@ const Header = () => {
                 <Link to="/cart">Cart</Link>
                 <Link to="/login">Login</Link>
                 <Link to="/signup">Sign Up</Link>
+                <form className="search-form" onSubmit={handleSearchSubmit}>
+                    <input
+                        type="text"
+                        placeholder="Search..."
+                        value={searchTerm}
+                        onChange={handleSearchChange}
+                    />
+                    <button type="submit">🔍</button>
+                </form>
             </nav>
             <button className="menu-toggle" onClick={toggleMenu}>
                 ☰
