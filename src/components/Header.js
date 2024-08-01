@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <Link to="/">ShopLogo</Link>
+                <Link to="/">Online Shop</Link>
             </div>
             <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                 <Link to="/">Home</Link>
