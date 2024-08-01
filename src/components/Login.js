@@ -35,29 +35,27 @@ const Login = () => {
     };
 
     return (
-        <div>
+        <div className="login-container">
             <h1>Login</h1>
-            {error && <p style={{ color: 'red' }}>{error}</p>}
+            {error && <p className="error-message">{error}</p>}
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="username">Username:</label>
+                <div className="form-group">
                     <input
                         type="text"
-                        id="username"
+                        placeholder="Username"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     />
                 </div>
-                <div>
-                    <label htmlFor="password">Password:</label>
+                <div className="form-group">
                     <input
                         type="password"
-                        id="password"
+                        placeholder="Password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit" className="login-button">Login</button>
             </form>
         </div>
     );
